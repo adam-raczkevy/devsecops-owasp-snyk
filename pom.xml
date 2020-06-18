@@ -347,7 +347,7 @@
 			           <configuration>
 			             <target>
 			               <ant target="run" antfile="${basedir}/src/config/build.xml">
-			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			             </target>
 			           </configuration>
@@ -361,7 +361,7 @@
 			           <configuration>
 			             <target>
 			               <ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			             </target>
 			           </configuration>
@@ -375,7 +375,7 @@
 			           <configuration>
 			             <target>
 			               <ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			                 <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			             </target>
 			           </configuration>
@@ -550,7 +550,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -564,7 +564,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -578,7 +578,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -694,7 +694,7 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
+			<version>2.7</version>
 		</dependency>
 
 		<dependency>
